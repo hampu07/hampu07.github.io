@@ -59,6 +59,10 @@
     font-family:'Cairo', sans-serif;
 }
 .addition{
-    font: size 30;
+    font: size 30px;
     font-family: 'Cairo', sans-serif;
+}
+.subtraktion{
+    font: size 30px;
+    font-family:'Cairo', sans-serif;
 }
