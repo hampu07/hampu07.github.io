@@ -3,4 +3,20 @@
 document.addEventListener('DOMContentLoaded', () => 
 {
     console.log('MILK');
+
+    let gayColors = 
+    [
+        '#fa5c5c',
+        '#faa65c',
+        '#fae85c',
+        '#74fa5c',
+        '#5cd2fa',
+        '#5f5cfa',
+        '#ae5cfa',
+        '#fa5ced'
+    ]
+
+    let randomGayColor = gayColors[Math.floor(Math.random() * gayColors.length)]
+
+    document.body.style.background = randomGayColor;
 })
