@@ -44,6 +44,7 @@
 .algebra{
     font-family:'Cairo', sans-serif;
     font-size: 30px;
+    text-align: center;
 }
 .kimsmattematikalgebra{
     font-size: 20px;
@@ -141,27 +142,32 @@ body{
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.gåspennan7{
+.gåspennan7
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.gåspennan8{
+.gåspennan8
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.gåspennan9{
+.gåspennan9
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.elevspelpluss{
+.elevspelpluss
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.Dropdown{
+.Dropdown
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
@@ -183,3 +189,4 @@ body{
     .dropdown:hover .dropdown-content {
     display:block;
     }
+
