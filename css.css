@@ -8,7 +8,7 @@
 p
 {
     font-family:'Cairo', sans-serif;
-    font-size:20px; 
+    font-size: 20px; 
     text-align: center;  
 }
 
@@ -32,12 +32,6 @@ a
     font-family:'Cairo', sans-serif;
 }
 
-.nomp
-{
-    color: orangered;
-    font-family:'Cairo', sans-serif;
-}
-
 .algebramskinen
 {
     color: silver;
@@ -46,13 +40,13 @@ a
 
 .matteva
 {
-    color: blue;
     font-family:'Cairo', sans-serif;
 }
 
 .zao
 {
     display:block;
+    margin: 0;
     font-family:'Cairo', sans-serif;
 }
 
@@ -65,11 +59,6 @@ a
 {
     font-family:'Cairo', sans-serif;
     font-size: 30px;
-}
-
-.kimsmattematikalgebra, .elevspelalgebra
-{
-    font-size: 20px;
 }
 
 .multiplikation
