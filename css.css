@@ -9,8 +9,13 @@
 p
 {
     font-family:'Cairo', sans-serif;
+ 
     font-size: 20px; 
     text-align: center;  
+
+    font-size: 30px;
+    text-align: center;
+ 
 }
 
 body 
@@ -107,7 +112,10 @@ body
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
+ 
 
+
+ 
 .gåspennan7
 {
     font-size: 20px;
@@ -115,26 +123,36 @@ body
     text-align: center;
 }
 
+
+
+ 
 .gåspennan8
 {
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
+ 
 
+
+ 
 .gåspennan9
 {
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
+ 
 
+
+ 
 .elevspelpluss
 {
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
+ 
 
 .dropbtn 
 {
@@ -195,3 +213,29 @@ body
 {
     margin-bottom: 150px;
 }
+
+.Dropdown
+{
+    font-size: 20px;
+    font-family:'Cairo', sans-serif ;
+    text-align: center;
+}
+.Dropdown {
+    position:relative;
+     display:inline-block;
+    }
+        
+    .dropdown-content{
+    display:none;
+    position:absolute;
+    background-color:lightskyblue;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
+    padding:12px 16px;
+    z-index:1;
+    }
+    .dropdown:hover .dropdown-content {
+    display:block;
+    }
+
+ 
