@@ -1,0 +1,32 @@
+.miniquiz
+{
+    font-size: 100px;
+    width: 100%;
+    margin-bottom: none;
+    font-family: sans-serif;
+}
+
+.miniquiz-text
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+}
+
+#bottom
+{
+    position: fixed;
+    bottom: 0;
+    padding-left: 9px;
+    padding-bottom: 5px;
+    left: 0;
+    font-size: 50px;
+}
+
+#bottom-text
+{
+    font-family: sans-serif;
+    color: white;
+    text-decoration: none;
+}
