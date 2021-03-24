@@ -212,6 +212,7 @@ body
 .extra-margin
 {
     margin-bottom: 150px;
+ 
 }
 
 .miniquiz
@@ -228,4 +229,6 @@ body
     color: white;
     text-align: center;
     display: block;
+
+ 
 }
