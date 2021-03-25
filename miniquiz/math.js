@@ -39,20 +39,7 @@ document.addEventListener('DOMContentLoaded', () =>
         } else return
     }
 
-    checkforrules()
-
-    function checkforrulesagain()
-    {
-        if(b = 1)
-        {
-            a = Math.floor(Math.random() * 101);
-            b = Math.floor(Math.random() * 11);
-            c = (a / b);
-            checkforrulesagain(); 
-        } else return
-    }
-
-    checkforrulesagain();
+    checkforrules();
 
     console.log(a, b, c)
 
