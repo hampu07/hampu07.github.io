@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () =>
 
     console.log(a, b, c)
 
-    const gone1 = document.getElementById('gone');
+    const gone1 = document.getElementById('gone1');
     const btn1 = document.getElementById('btn1');
     const text1 = document.getElementById('text1');
     const text2 = document.getElementById('text2');
