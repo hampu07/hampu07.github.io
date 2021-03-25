@@ -212,4 +212,23 @@ body
 .extra-margin
 {
     margin-bottom: 150px;
+ 
+}
+
+.miniquiz
+{
+    font-size: 100px;
+    width: 100%;
+    margin-bottom: none;
+    font-family: sans-serif;
+}
+
+.miniquiz-text
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+
+ 
 }
