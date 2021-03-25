@@ -1,22 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => 
 {
-    console.log('MILK');
-
-    let gayColors = 
-    [
-        '#fa5c5c',
-        '#faa65c',
-        '#fae85c',
-        '#74fa5c',
-        '#5cd2fa',
-        '#5f5cfa',
-        '#ae5cfa',
-        '#fa5ced'
-    ]
-
-    let randomGayColor = gayColors[Math.floor(Math.random() * gayColors.length)]
-
-    document.body.style.background = randomGayColor;
+    console.log('how to cheat, i consolen skriv console.log(c); sedan är du klar. var så god //NoelNim');
 
     let a = Math.floor(Math.random() * 101);
     let b = Math.floor(Math.random() * 19) + 2;
@@ -54,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () =>
 
     function start1()
     {
-        gone1.innerHTML = " ";
-        text1.innerHTML = a + "<br/>" + b + "<br/>" + "______"
+        gone1.innerHTML = "";
+        text1.innerHTML = a + " <span>&#247</span> " + b + " =";
     }
 })
