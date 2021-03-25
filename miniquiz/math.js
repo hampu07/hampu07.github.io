@@ -1,25 +1,9 @@
 document.addEventListener('DOMContentLoaded', () => 
 {
-    console.log('MILK');
-
-    let gayColors = 
-    [
-        '#fa5c5c',
-        '#faa65c',
-        '#fae85c',
-        '#74fa5c',
-        '#5cd2fa',
-        '#5f5cfa',
-        '#ae5cfa',
-        '#fa5ced'
-    ]
-
-    let randomGayColor = gayColors[Math.floor(Math.random() * gayColors.length)]
-
-    document.body.style.background = randomGayColor;
+    console.log('how to cheat, i consolen skriv console.log(c); sedan är du klar. var så god //NoelNim');
 
     let a = Math.floor(Math.random() * 101);
-    let b = Math.floor(Math.random() * 11);
+    let b = Math.floor(Math.random() * 19) + 2;
     let c = (a / b);
 
     function checkforrules()
@@ -27,32 +11,21 @@ document.addEventListener('DOMContentLoaded', () =>
         if(b > a)
         {
             a = Math.floor(Math.random() * 101);
-            b = Math.floor(Math.random() * 11);
+            b = Math.floor(Math.random() * 19) + 2;
             c = (a / b)
             checkforrules();
         } else if(c % 1 != 0)
         {
             a = Math.floor(Math.random() * 101);
-            b = Math.floor(Math.random() * 11);
+            b = Math.floor(Math.random() * 19) + 2;
             c = (a / b)
             checkforrules();
         } else return
     }
 
-    checkforrules()
 
-    function checkforrulesagain()
-    {
-        if(b = 1)
-        {
-            a = Math.floor(Math.random() * 101);
-            b = Math.floor(Math.random() * 11);
-            c = (a / b);
-            checkforrulesagain(); 
-        } else return
-    }
+    checkforrules();
 
-    checkforrulesagain();
 
     console.log(a, b, c)
 
@@ -65,7 +38,7 @@ document.addEventListener('DOMContentLoaded', () =>
 
     function start1()
     {
-        gone1.innerHTML = " ";
-        text1.innerHTML = a + "<br/>" + b + "<br/>" + "______"
+        gone1.innerHTML = "";
+        text1.innerHTML = a + " <span>&#247</span> " + b + " =";
     }
 })
