@@ -46,6 +46,20 @@ document.addEventListener('DOMContentLoaded', () =>
     }
 
     checkforrules()
+
+    function checkforrulesagain()
+    {
+        if(b = 1)
+        {
+            a = Math.floor(Math.random() * 101);
+            b = Math.floor(Math.random() * 11);
+            c = (a / b);
+            checkforrulesagain(); 
+        } else return
+    }
+
+    checkforrulesagain();
+
     console.log(a, b, c)
 
     const gone1 = document.getElementById('gone');
