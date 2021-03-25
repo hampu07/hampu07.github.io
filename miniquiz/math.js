@@ -36,6 +36,12 @@ document.addEventListener('DOMContentLoaded', () =>
             b = Math.floor(Math.random() * 11);
             c = (a / b)
             checkforrules();
+        } else if(b = 1)
+        {
+            a = Math.floor(Math.random() * 101);
+            b = Math.floor(Math.random() * 11);
+            c = (a / b)
+            checkforrules(); 
         } else return
     }
 
