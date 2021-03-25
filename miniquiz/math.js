@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () =>
     document.body.style.background = randomGayColor;
 
     let a = Math.floor(Math.random() * 101);
-    let b = Math.floor(Math.random() * 11);
+    let b = Math.floor(Math.random() * 19) + 2;
     let c = (a / b);
 
     function checkforrules()
@@ -27,13 +27,13 @@ document.addEventListener('DOMContentLoaded', () =>
         if(b > a)
         {
             a = Math.floor(Math.random() * 101);
-            b = Math.floor(Math.random() * 11);
+            b = Math.floor(Math.random() * 19) + 2;
             c = (a / b)
             checkforrules();
         } else if(c % 1 != 0)
         {
             a = Math.floor(Math.random() * 101);
-            b = Math.floor(Math.random() * 11);
+            b = Math.floor(Math.random() * 19) + 2;
             c = (a / b)
             checkforrules();
         } else return
