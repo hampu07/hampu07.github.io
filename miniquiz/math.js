@@ -1,6 +1,10 @@
 document.addEventListener('DOMContentLoaded', () => 
 {
+ 
     console.log('jag tog bort alla fusk //NoelNim');
+
+    console.log('how to cheat, i consolen skriv console.log(c); sedan är du klar. var så god //NoelNim');
+ 
 
     let a = Math.floor(Math.random() * 101);
     let b = Math.floor(Math.random() * 19) + 2;
@@ -23,6 +27,7 @@ document.addEventListener('DOMContentLoaded', () =>
         } else return
     }
 
+ 
     checkforrules();
 
     const gone1 = document.getElementById('gone1');
@@ -34,11 +39,26 @@ document.addEventListener('DOMContentLoaded', () =>
 
     btn1.addEventListener('click', start1);
 
+
+    checkforrules();
+
+
+    console.log(a, b, c)
+
+    const gone1 = document.getElementById('gone1');
+    const btn1 = document.getElementById('btn1');
+    const text1 = document.getElementById('text1');
+    const text2 = document.getElementById('text2');
+
+    btn1.addEventListener('click', start1)
+ 
+
     function start1()
     {
         gone1.innerHTML = "";
         text1.innerHTML = a + " <span>&#247</span> " + b + " =";
     }
+ 
 
     btn2.addEventListener('click', awnserYes);
 
@@ -62,3 +82,6 @@ document.addEventListener('DOMContentLoaded', () =>
         }
     }
 })
+
+})
+ 

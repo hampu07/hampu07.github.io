@@ -83,6 +83,12 @@ body
 
 .input
 {
+
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ 
     margin-top: 10px;
     background: #F1F3F4;
     border: none;
@@ -91,6 +97,7 @@ body
     width: 200px;
     padding-left: 10px;
     border-radius: 10px;
+ 
     margin-right: 5px;
 }
 
@@ -158,4 +165,6 @@ body
 .fa-times
 {
     color: #e33434;
+
+ 
 }
