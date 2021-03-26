@@ -38,6 +38,14 @@ document.addEventListener('DOMContentLoaded', () =>
     let hasstarted = false;
     const turer = document.getElementById('turer');
     var turercount = 0;
+    let highscore = document.getElementById('highscore');
+
+    if(!localStorage.getItem('streak'))
+    {
+        localStorage.setItem('streak', 0);
+    }
+
+    highscore.innerHTML = 'rekord: ' + localStorage.getItem('streak');
 
     streaktext.innerHTML = "streak: " + streak
 
@@ -74,6 +82,11 @@ document.addEventListener('DOMContentLoaded', () =>
             timer.innerHTML = ('tid: ' + seconds);
             turercount++;
             turer.innerHTML = "turer: " + turercount;
+            if(streak > localStorage.getItem('streak'))
+            {
+                console.log(localStorage.setItem('streak', streak));
+                highscore.innerHTML = 'rekord: ' + localStorage.getItem('streak');
+            }
         } else
         {
             resultat.innerHTML = 'resultat: <i class="fas fa-times fa-lg"></i>';
@@ -100,7 +113,7 @@ document.addEventListener('DOMContentLoaded', () =>
     
     function cookies()
     {
-        document.cookie = "miniquiz=NoelNim; max-age=" + 60 * 60 * 24 * 30;
+        document.cookie = "miniquiz=NoelNim";
         if(document.cookie)
         {
             cookieBox.classList.add('hide');
