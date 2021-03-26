@@ -92,4 +92,31 @@ document.addEventListener('DOMContentLoaded', () =>
     }
 
     setInterval(count, 1000);
+
+    const cookieBox = document.getElementById('wrapper');
+    const acceptButton = document.getElementById('buttons');
+
+    acceptButton.addEventListener('click', cookies);
+    
+    function cookies()
+    {
+        document.cookie = "miniquiz=NoelNim; max-age=" + 60 * 60 * 24 * 30;
+        if(document.cookie)
+        {
+            cookieBox.classList.add('hide');
+        } else
+        {
+            alert('cookie not there ):');
+        }
+    }
+
+    checkCookies();
+
+    function checkCookies()
+    {
+        if(document.cookie)
+        {
+            cookieBox.classList.add('hide');
+        }
+    }
 })
