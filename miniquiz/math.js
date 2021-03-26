@@ -1,10 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => 
 {
- 
     console.log('jag tog bort alla fusk //NoelNim');
-
-    console.log('how to cheat, i consolen skriv console.log(c); sedan är du klar. var så god //NoelNim');
- 
 
     let a = Math.floor(Math.random() * 101);
     let b = Math.floor(Math.random() * 19) + 2;
@@ -27,7 +23,6 @@ document.addEventListener('DOMContentLoaded', () =>
         } else return
     }
 
- 
     checkforrules();
 
     const gone1 = document.getElementById('gone1');
@@ -36,29 +31,26 @@ document.addEventListener('DOMContentLoaded', () =>
     const awnser = document.getElementById('awsome');
     const resultat = document.getElementById('resultat');
     const text1 = document.getElementById('text1');
+    let streak = 0;
+    let streaktext = document.getElementById('streak');
+    var seconds = 0;
+    const timer = document.getElementById('timer')
+    let hasstarted = false;
+    const turer = document.getElementById('turer');
+    var turercount = 0;
+
+    streaktext.innerHTML = "streak: " + streak
 
     btn1.addEventListener('click', start1);
-
-
-    checkforrules();
-
-
-    console.log(a, b, c)
-
-    const gone1 = document.getElementById('gone1');
-    const btn1 = document.getElementById('btn1');
-    const text1 = document.getElementById('text1');
-    const text2 = document.getElementById('text2');
-
-    btn1.addEventListener('click', start1)
- 
 
     function start1()
     {
         gone1.innerHTML = "";
         text1.innerHTML = a + " <span>&#247</span> " + b + " =";
+        hasstarted = true;
+        turercount++;
+        turer.innerHTML = "turer: " + turercount;
     }
- 
 
     btn2.addEventListener('click', awnserYes);
 
@@ -76,12 +68,28 @@ document.addEventListener('DOMContentLoaded', () =>
             checkforrules();
             text1.innerHTML = a + " / " + b + " =";
             awnser.value = "";
+            streak++;
+            streaktext.innerHTML = "streak: " + streak;
+            seconds = 0;
+            timer.innerHTML = ('tid: ' + seconds);
+            turercount++;
+            turer.innerHTML = "turer: " + turercount;
         } else
         {
             resultat.innerHTML = 'resultat: <i class="fas fa-times fa-lg"></i>';
+            streak = 0;
+            streaktext.innerHTML = "streak: " + streak;
         }
     }
-})
 
+    function count()
+    {
+        if(hasstarted)
+        {
+            seconds+=1;
+            timer.innerHTML = ('tid: ' + seconds);
+        } else return
+    }
+
+    setInterval(count, 1000);
 })
- 
