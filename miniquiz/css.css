@@ -279,3 +279,46 @@ body
 {
     padding-right: 5px;
 }
+
+.wrapper
+{
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    border-radius: 50px;
+    background: #EA4335;
+    box-shadow: inset 20px 20px 60px #cc3a2e,
+                inset -20px -20px 60px #ff4c3c;
+    width: 200px;
+    height: 150px;
+    padding: 25px 25px 30px 25px;
+    text-align: center;
+    font-family: sans-serif;
+    color: white;
+}
+
+.cookiesheader
+{
+    margin-top: 10px;
+    font-size: 15px;
+}
+
+.buttons button
+{
+    border: 1px solid transparent;
+    background-color: #e3ca86;
+    color: white;
+    border-radius: 15px;
+    height: 30px;
+    width: 150px;
+}
+
+.buttons button:hover
+{
+    cursor: pointer;
+}
+
+.hide
+{
+    display: none;
+}
