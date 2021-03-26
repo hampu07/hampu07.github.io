@@ -3,35 +3,39 @@
     <head>
         <script src="math.js"></script>
         <link rel="stylesheet" href="css.css">
- 
-         <script src="https://kit.fontawesome.com/d378015fe2.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/d378015fe2.js" crossorigin="anonymous"></script>
         <meta name="viewport" content="width-device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
         <title>miniquiz</title>
-
- 
     </head>
     <body>
         <div class="miniquiz">
-            <a href="miniquiz/miniquiz.html" class="miniquiz-text">miniquiz</a>
-        </div>
-        <div id="bottom">
-            <a href="/index.html" id="bottom-text">tillbaka</a>
+            <a class="miniquiz-text">miniquiz</a>
         </div>
         <div id="frame001">
-            <h2 class="title">miniquiz</h2>
+            <h2 class="title">division</h2>
+            <div class="containerstreak">
+                <div class="firefoxcontainer"><i class="fab fa-firefox fa-lg"></i></div><div class="streak" id="streak">streak: </div>
+            </div>
+            <div class="tidcontainer2">
+                <div class="tidcontainer"><i class="far fa-clock"></i></div><div class="streak" id="timer">tid: 0</div>
+            </div>
+            <div class="turcontainer">
+                <div class="turcontainer2"><i class="fas fa-ellipsis-h"></i></div><div class="streak" id="turer">turer: 0</div>
+            </div>
             <p id="text1"></p>
             <div id="gone1">
- 
                 <button id="btn1"><i class="fas fa-play"></i></button>
             </div>
             <div class="container">
                 <input type="text" placeholder="dit svar" class="input" id="awsome"><button class="btn2" id="btn2"><i class="fas fa-check-circle fa-2x"></i></button>
             </div>
             <div class="resultat"><div class="resultattext" id="resultat">resultat: <i class="fas fa-hourglass-half fa-lg"></i></div></div>
-
-               
-            
- 
+        </div>
+        <div id="bottom">
+            <a href="/index.html" id="bottom-text">tillbaka</a>
+        </div>
+        <div class="notes">
+            <a class="notestext" href="https://github.com/NoelNim" style="color: white; text-decoration: none; font-family: sans-serif;"><i class="fab fa-github"></i><i class="fab fa-creative-commons"></i></i>Creative Commons, Author: NoelNim</a>
         </div>
     </body>
 </html>
