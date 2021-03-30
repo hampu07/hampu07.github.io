@@ -1,192 +1,234 @@
-.välkommen{
+.välkommen
+{
     color:black;
     text-align:center;
     font-size: 50px;
-    }
-    p{
+    font-family: sans-serif;
+}
+
+p
+{
     font-family:'Cairo', sans-serif;
-    font-size:20px; 
+ 
+    font-size: 20px; 
     text-align: center;  
-    }
-    body {
-        background:lightskyblue;
-    }
-    .wallapåjalla{
-        font-family: 'Cairo', sans-serif;
-        text-align:center;
-        font-size: 20px;
-        margin: 36.5%;
-        margin-bottom:10%;
-    }
-    a{
-        margin-top: 100%;
-        font-family:'Cairo', sans-serif;
-    }
-    .nomp{
-        color: orangered;
-        font-family:'Cairo', sans-serif;
-    }
-    .algebramskinen{
-        color: silver;
-        font-family:'Cairo', sans-serif;
-    }
-    .matteva{
-      color: blue;
-      font-family:'Cairo', sans-serif;
-    }
-.zao{
-    display:block;
-    font-family:'Cairo', sans-serif;
-}
-.mattevaalgebra{
-    font-family:'Cairo', sans-serif; 
-}
-.algebra{
-    font-family:'Cairo', sans-serif;
+
     font-size: 30px;
     text-align: center;
+ 
 }
-.kimsmattematikalgebra{
+
+body 
+{
+    background:lightskyblue;
+}
+
+.wallapåjalla
+{
+    font-family: 'Cairo', sans-serif;
+    text-align:center;
     font-size: 20px;
+    margin: 36.5%;
+    margin-bottom:10%;
 }
-.elevspelalgebra{
-    font-size: 20px;
+
+a
+{
+
 }
-.multiplikation{
+
+.matteva
+{
+    font-family:'Cairo', sans-serif;
+}
+
+.zao
+{
+    display:block;
+    margin: 0;
+    font-family:'Cairo', sans-serif;
+}
+
+.mattevaalgebra
+{
+    font-family:'Cairo', sans-serif; 
+}
+
+.algebra
+{
+    font-family:'Cairo', sans-serif;
     font-size: 30px;
 }
-.kimsmattemulti{
+
+.kimsmattemulti
+{
     font-size: 20px; 
     font-family:'Cairo', sans-serif;
 }
-.addition{
+
+.addition, .subtraktion, .Multiplikation, .övrigt, .bråk, .procent, .division, .decimaltal, .Geometri, .tidmassalängvolym, .mattevamultiplikationtabell
+{
     font-size:30px;
     font-family: 'Cairo', sans-serif;
     text-align: center;
 }
-.subtraktion{
-    font-size:30px;
-    font-family:'Cairo', sans-serif;
-    text-align: center;
-}
-.kimsmattepluss{
- font-size: 20px;
- font-family:'Cairo', sans-serif; 
-text-align: center;
-}
-.övrigt{
-font-size: 30px;
-font-family:'Cairo', sans-serif;  
-text-align: center;
-}
-.bråk{
-    font-size:30px;
-    font-family:'Cairo', sans-serif;
-    text-align: center;
-}
-.procent{
-    font-size:30px;
-    font-family:'Cairo', sans-serif;
-    text-align: center;
-}
-.division{
-    font-size:30px;
-    font-family:'Cairo', sans-serif;
-    text-align: center;
-}
-.decimaltal{
-    font-size:30px;
-    font-family:'Cairo', sans-serif;
-    text-align: center;
-}
-.geometri{
-    font-size:30px;
-    font-family:'Cairo', sans-serif;
-    text-align: center;
-}
-.tidmassalängdvolym{
-    font-size:30px;
-    font-family:'Cairo', sans-serif;
-    text-align: center;
-}
-.mattevamultiplikationtabell{
-    font-size: 20px;
-    font-family:'Cairo', sans-serif ;
-    text-align: center;
-}
-body{
+
+body
+{
     margin: 0;
 }
-.gåspennan{
+
+.gåspennan
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.gåspennan3{
+
+.gåspennan3
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.gåspennan4{
+
+.gåspennan4
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.gåspennan5{
+
+.gåspennan5
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.gåspennan6{
+
+.gåspennan6
+{
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
+ 
+
+
+ 
 .gåspennan7
 {
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
+
+
+
+ 
 .gåspennan8
 {
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
+ 
+
+
+ 
 .gåspennan9
 {
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
+ 
+
+
+ 
 .elevspelpluss
 {
     font-size: 20px;
     font-family:'Cairo', sans-serif ;
     text-align: center;
 }
-.Dropdown
-{
-    font-size: 20px;
-    font-family:'Cairo', sans-serif ;
-    text-align: center;
-}
-.Dropdown {
-    position:relative;
-     display:inline-block;
-    }
-        
-    .dropdown-content{
-    display:none;
-    position:absolute;
-    background-color:lightskyblue;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba (0,0,0,0.2);
-    padding:12px 16px;
-    z-index:1;
-    }
-    .dropdown:hover .dropdown-content {
-    display:block;
-    }
+ 
 
+.dropbtn 
+{
+    background-color: white;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.center
+{
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+}
+
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+  
+.dropdown-content 
+{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a 
+{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover .dropbtn {background-color: whitesmoke;}
+
+.margin-bottom
+{
+    margin-bottom: 50px;
+}
+
+.extra-margin
+{
+    margin-bottom: 150px;
+ 
+}
+
+.miniquiz
+{
+    font-size: 100px;
+    width: 100%;
+    margin-bottom: none;
+    font-family: sans-serif;
+}
+
+.miniquiz-text
+{
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    display: block;
+
+ 
+}
